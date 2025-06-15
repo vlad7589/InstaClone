@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InstaClone</string>
+    <string name="dont_have_an_acc">Don\'t have an account?</string>
+    <string name="have_an_acc">Have an account?</string>
+    <string name="goto_reg_form_ref">Sign up</string>
+    <string name="sign_up_text">Sign up to see photos and videos from your friends.</string>
+    <string name="hint_username">Phone number, username, or email</string>
+    <string name="hint_reg_phone">Mobile number</string>
+    <string name="hint_reg_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_fullname">Full Name</string>
+    <string name="hint_reg_username">Username</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_btn_text">Log In</string>
+    <string name="sign_up_btn_text">Sign up</string>
+    <string name="login_with_github">Log in with GitHub</string>
+    <string name="privacy_policy">By signing up, you agree to our</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="shape_profile">Share profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

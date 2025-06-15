@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InstaClone" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Disable ripple color -->
+        <item name="colorControlHighlight">@android:color/transparent</item>
+
+        <!-- Disable selectable item background ripple effect -->
+        <item name="android:selectableItemBackground">@android:color/transparent</item>
+        <item name="android:selectableItemBackgroundBorderless">@android:color/transparent</item>
+    </style>
+</resources>

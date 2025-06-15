@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/postsBtn"
+        android:icon="@drawable/baseline_grid_on_24"
+        android:title="My posts"/>
+    <item
+        android:id="@+id/reelsBtn"
+        android:icon="@drawable/outline_video_chat_24"
+        android:title="Reels"/>
+    <item
+        android:id="@+id/markedPosts"
+        android:icon="@drawable/baseline_account_box_24"
+        android:title="Marked posts"/>
+</menu>

@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: insta-clone
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: user
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+      hibernate:
+        enable_lazy_load_no_trans: true
+    show-sql: true
+
+jwt:
+  secret: yourSuperSecretKeyWhichShouldBeAtLeast32BytesAndOnestlyIdontKnowWhyButIWillLearItLaterCauseSecurityIsInterestingThemeKakTebiaZovut
+
+server:
+  address: 0.0.0.0
+  port: 8080
+  tomcat:
+    connection-timeout: 100000
